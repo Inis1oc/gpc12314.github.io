@@ -1,0 +1,35 @@
+body{
+	background: #FFFFFF;
+}
+img{
+	opacity:0.03;
+	filter: alpha(opacity=3);
+}
+img:hover{
+	opacity:1.0;
+	filter :alpha(opacity=100);
+}
+h1{
+	color: #3333FF;
+}
+#Header{
+	padding:  20px;
+	padding-left: 50px;
+	width: auto;
+	background-color:  #33FFCC;
+}
+#Footer{
+	margin-bottom: 0;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    color: #000000;
+}
+#Sider{
+	width: 300px;
+	height:  1000px;
+	background-color: #FFFFFF;
+	border-style: dashed;
+	border-color: #CC0000; 
+}
